@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "mapbox-gl/dist/mapbox-gl.css";
+
+body {
+  @apply bg-mist text-ink;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  @apply cursor-pointer rounded-md border border-slate-200 bg-white px-3 py-2 text-sm;
+}
